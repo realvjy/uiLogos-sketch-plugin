@@ -3,4 +3,4 @@
 ## Demo
 ##### Generating pictures
 
-![Generating thumbnails](#)
+#![Generating thumbnails](#)

@@ -8,7 +8,8 @@ var onRun = function(context) {
 
   //loop through the pages of the document
   for (var i = 0; i < pages.count(); i++){
-    //reference each page
+
+    //reference each page    
     var page = pages[i];
 
     //get the name of the page
