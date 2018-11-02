@@ -1,0 +1,25 @@
+{
+    "name" : "uiLogos",
+    "identifier" : "com.graficspark.sketch.uilogos",
+    "version" : "1.0",
+    "description" : "uiLogos insert dummy logos of company in color and black & white",
+    "authorEmail" : "hello@vijayverma.co",
+    "author" : "Vijay Verma",
+
+    "commands" : [
+    {
+      "script" : "Logos/Color.js",
+      "handler" : "onRun",
+      "shortcut" : "shift alt k",
+      "name" : "Color",
+      "identifier" : "logos-color"
+    },
+    {
+      "script" : "Logos/Black And White.js",
+      "handler" : "onRun",
+      "shortcut" : "shift alt d",
+      "name" : "Black & White",
+      "identifier" : "logos-blackwhite"
+    }
+  ],
+}
