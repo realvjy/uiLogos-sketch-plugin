@@ -2,5 +2,5 @@
 @import '../js/getLogo.js'
 
 function onRun(context){
-    getLogos(context, 'data/logos/black/')
+    getLogos(context, 'data/logos/mark/')
 }
