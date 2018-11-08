@@ -38,15 +38,14 @@ function shuffle(array) {
 
 //Replace image
 function replaceWithImages(images, context) {
-	var selection = context.selection
-  var doc = context.document
+	var selection = context.selection;
+  var doc = context.document;
   var page = doc.currentPage()
   var artboard = page.currentArtboard()
 
 	for(var i = 0; i < [selection count]; i++) {
 		var newImage = [[NSImage alloc] initByReferencingFile:images[i]];
     var selectedLayer = selection[i];
-    var imageName = images[i].lastPathComponent();
     // Save original Image Size
     var originalSize = newImage.size();
 
@@ -56,13 +55,15 @@ function replaceWithImages(images, context) {
     } else {
         var imageData = MSImageData.alloc().initWithImage(newImage);
     }
+    if (isRectangleShape(selectedLayer)) {
+      var frame = getFrameSize(originalSize, selectedLayer)
 
-    var frame = getFrameSize(originalSize, selectedLayer)
-
-    // var rect = CGRectMake(0, 0, 100, 100); //default dimension
-    var bitmapLayer = MSBitmapLayer.alloc().initWithFrame_image(frame, imageData); //add CGRect from old frame
-    artboard.addLayers([bitmapLayer]); //Create new bitmap layer
-    artboard.removeLayer(selectedLayer);// remove sected layer
+      // var rect = CGRectMake(0, 0, 100, 100); //default dimension
+      var bitmapLayer = MSBitmapLayer.alloc().initWithFrame_image(frame, imageData);
+      bitmapLayer.name = getLayerName(images[i]); //change layer name
+      artboard.addLayers([bitmapLayer]); //Create new bitmap layer
+      artboard.removeLayer(selectedLayer);// remove sected layer
+    }
 	}
 
 	if([selection count] == 0) [doc showMessage:'Select at least one vector shape'];;
@@ -82,7 +83,7 @@ function placeLogoImage(dataPath, context) {
 	var files = [fileManager contentsOfDirectoryAtPath:imagesPath error:nil];
 	var imageFileNames = [[files filteredArrayUsingPredicate:[NSPredicate predicateWithFormat:@"pathExtension IN %@", fileTypes]] mutableCopy]
 	var count = imageFileNames.count();
-  if (count != 0) {
+  if (count != 0 && count >= selection.count()) {
     shuffle(imageFileNames);
 
     for (var i = 0; i < selection.count(); i++) {
@@ -92,9 +93,10 @@ function placeLogoImage(dataPath, context) {
         doc.showMessage('Please select rectangle shape!!');
       }
     }
+
     replaceWithImages(imageFileNames, context);
   } else {
-    doc.showMessage('Sorry!! No any logo marks');
+    doc.showMessage('Sorry!! Too many shapes. Select maximum '+count+' shapes' );
   }
 
 }
@@ -123,7 +125,7 @@ function getFrameSize(originalSize, selectedLayer){
     var ratio = originalSize.height/originalSize.width;
 
 
-    var newHeight = newWidth;
+    var newHeight = newHeight;
     var newWidth = newHeight/ratio;
 
     // Check for portrait logo
@@ -138,4 +140,9 @@ function getFrameSize(originalSize, selectedLayer){
     var newY = selectedLayer.frame().y() + (selectedLayer.frame().height() - newHeight)/2;
 
     return CGRectMake(newX,newY,newWidth,newHeight);
+}
+
+// Get Layer name
+function getLayerName(imageURL) {
+  return String(imageURL.lastPathComponent().componentsSeparatedByString(".").firstObject());
 }
