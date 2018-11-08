@@ -61,8 +61,12 @@ function replaceWithImages(images, context) {
       // var rect = CGRectMake(0, 0, 100, 100); //default dimension
       var bitmapLayer = MSBitmapLayer.alloc().initWithFrame_image(frame, imageData);
       bitmapLayer.name = getLayerName(images[i]); //change layer name
-      artboard.addLayers([bitmapLayer]); //Create new bitmap layer
-      artboard.removeLayer(selectedLayer);// remove sected layer
+      if (artboard) {
+        artboard.addLayers([bitmapLayer]); //Create new bitmap layer
+        artboard.removeLayer(selectedLayer);// remove sected layer
+      } else {
+        doc.showMessage('Shapes must inside artboard!')
+      }
     }
 	}
 
