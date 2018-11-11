@@ -6,7 +6,11 @@
 ## Demo
 ##### Generating pictures
 
-#![Generating thumbnails](#)
+### Logomark
+#![Generating thumbnails](/tutorial/uiLogos-demo-1.gif?raw=true)
+
+### Logotype
+#![Generating thumbnails](/tutorial/uiLogos-demo-2.gif?raw=true)
 
 
 ## Installation
