@@ -2,9 +2,9 @@
     "name" : "uiLogos",
     "identifier" : "com.graficspark.sketch.uilogos",
     "version" : "0.1",
-    "icon" : "data/favicon-64x64.png",
+    "icon" : "favicon-64x64.png",
     "homepage": "https://uilogos.co",
-    "description" : "uiLogos insert professional logos of company into SketchApp directly",
+    "description" : "Insert professionally designed dummy logos of companies",
     "authorEmail" : "hello@vijayverma.co",
     "author" : "Vijay Verma",
 

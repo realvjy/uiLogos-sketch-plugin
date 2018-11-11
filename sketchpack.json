@@ -1,6 +1,6 @@
 {
     "name": "uiLogos",
-    "description": "uiLogos insert professional logos of company into SketchApp directly",
+    "description": "Insert professionally designed dummy logos of companies",
     "tags": ["content", "data","logo","logotype","dummy","logomark","mark"],
     "version": "0.1",
     "manifest": "Contents/manifest.json",
