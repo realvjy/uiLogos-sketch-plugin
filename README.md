@@ -1,16 +1,13 @@
 # uiLogos for sketch
-<a href="http://bit.ly/SketchRunnerWebsite">
-      <img src="http://bit.ly/RunnerBadgeWhite">
-</a>
+
 
 ## Demo
-##### Generating pictures
 
 ### Logomark
-#![Generating thumbnails](/tutorial/uiLogos-demo-1.gif?raw=true)
+![Generating thumbnails](/tutorial/uiLogos-demo-1.gif?raw=true)
 
 ### Logotype
-#![Generating thumbnails](/tutorial/uiLogos-demo-2.gif?raw=true)
+![Generating thumbnails](/tutorial/uiLogos-demo-2.gif?raw=true)
 
 
 ## Installation
@@ -23,8 +20,10 @@
 ### Install with Sketch Runner
 With Sketch Runner, just go to the 'install' command and search for `uiLogos`. Runner allows you to manage plugins and do much more to speed up your workflow in Sketch. [Download Runner here](http://www.sketchrunner.com).
 
+<a href="http://bit.ly/SketchRunnerWebsite">
+      <img src="http://bit.ly/RunnerBadgeBlue">
+    </a>
 
-![Sketch Runner screenshot](http://...?raw=true)
 
 ### Via [Sketchpacks](https://sketchpacks.com/)
 <a href="https://sketchpacks.com/soulchild/sketch-logo-fetcher/install" title="Install Logo Fetcher with Sketchpacks">
