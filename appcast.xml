@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="1.1" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
   <channel>
     <title>uiLogos Sketch Plugin</title>
-    <link>http://sparkle-project.org/files/sparkletestcast.xml</link>
+    <link>https://raw.githubusercontent.com/realvjy/uiLogos-sketch-plugin/master/appcast.xml</link>
     <description>Sketch app plugin insert professionally designed dummy logos directly into sketchap</description>
     <language>en</language>
       <item>
-        <title>Version 0.1</title>
+        <title>0.1.0</title>
         <description>
           <![CDATA[
             <ul>
@@ -14,7 +14,7 @@
             </ul>
           ]]>
         </description>
-        <enclosure url="https://github.com/realvjy/uiLogos-sketch-plugin/archive/master.zip" sparkle:version="1.1" />
+        <enclosure url="https://github.com/realvjy/uiLogos-sketch-plugin/releases/download/v0.1.0/uiLogos.sketchplugin.zip" sparkle:version="1.1" />
       </item>
   </channel>
 </rss>

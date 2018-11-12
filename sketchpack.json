@@ -2,7 +2,6 @@
     "name": "uiLogos",
     "description": "Insert professionally designed dummy logos of companies",
     "tags": ["content", "data","logo","logotype","dummy","logomark","mark"],
-    "version": "0.1",
-    "manifest": "Contents/manifest.json",
+    "version": "0.1.0",
     "identifier": "com.graficspark.sketch.uilogos",
 }
