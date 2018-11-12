@@ -25,10 +25,8 @@ With Sketch Runner, just go to the 'install' command and search for `uiLogos`. R
     </a>
 
 
-### Via [Sketchpacks](https://sketchpacks.com/)
-<a href="https://sketchpacks.com/soulchild/sketch-logo-fetcher/install" title="Install Logo Fetcher with Sketchpacks">
-  <img width="160" height="41" src="http://sketchpacks-com.s3.amazonaws.com/assets/badges/sketchpacks-badge-install.png" >
-</a>
+### [![Install uiLogos with Sketchpacks](http://sketchpacks-com.s3.amazonaws.com/assets/badges/sketchpacks-badge-install.png "Install uiLogos with Sketchpacks")](https://sketchpacks.com/realvjy/uiLogos/install)
+
 
 ### Sketch plugin manager
 Installation via [Sketch Plugin Manager](https://mludowise.github.io/Sketch-Plugin-Manager/):
