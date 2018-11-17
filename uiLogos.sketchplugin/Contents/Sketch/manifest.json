@@ -5,9 +5,9 @@
     "icon" : "favicon-64x64.png",
     "homepage": "https://uilogos.co",
     "description" : "Insert professionally designed dummy logos of companies",
+    "appcast": "https://raw.githubusercontent.com/realvjy/uiLogos-sketch-plugin/master/appcast.xml",
     "authorEmail" : "hello@vijayverma.co",
-    "author" : "Vijay Verma",
-
+    "author" : "vijay verma",
     "commands" : [
       {
         "script" : "Logos/Black Logo.js",
