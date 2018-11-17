@@ -10,6 +10,11 @@ function isRectangleShape(selection) {
   return([selection isMemberOfClass:[MSRectangleShape class]])
 }
 
+//Is isOvalShape // Add support in next release
+function isOvalShape(selection) {
+  return( [selection isMemberOfClass:[MSOvalShape class]])
+}
+
 
 function deleteLayer(layer){
 	var parent = [layer parentGroup];
@@ -55,7 +60,7 @@ function replaceWithImages(images, context) {
     } else {
         var imageData = MSImageData.alloc().initWithImage(newImage);
     }
-    if (isRectangleShape(selectedLayer)) {
+    if (isRectangleShape(selectedLayer) || isOvalShape(selectedLayer)) {
       var frame = getFrameSize(originalSize, selectedLayer)
 
       // var rect = CGRectMake(0, 0, 100, 100); //default dimension
@@ -91,10 +96,10 @@ function placeLogoImage(dataPath, context) {
     shuffle(imageFileNames);
 
     for (var i = 0; i < selection.count(); i++) {
-      if (isRectangleShape(selection[i])) {
+      if (isRectangleShape(selection[i]) || isOvalShape(selection[i])) {
         imageFileNames[i] = imagesPath + "/" + imageFileNames[i];
       } else {
-        doc.showMessage('Please select rectangle shape!!');
+        doc.showMessage('Please select rectangle or oval shape!!');
       }
     }
 
@@ -118,7 +123,7 @@ function getFrameSize(originalSize, selectedLayer){
 
 
     // Decide the output frame dimension for reference
-    if (isRectangleShape(selectedLayer)) {
+    if (isRectangleShape(selectedLayer) || isOvalShape(selectedLayer)) {
       newX = selectedLayer.frame().x();
       newY = selectedLayer.frame().y();
       newWidth = selectedLayer.frame().width();
