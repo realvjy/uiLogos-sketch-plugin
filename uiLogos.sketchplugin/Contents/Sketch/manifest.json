@@ -1,7 +1,7 @@
 {
     "name" : "uiLogos",
-    "identifier" : "com.graficspark.sketch.uilogos",
     "version" : "0.1.0",
+    "identifier" : "com.graficspark.sketch.uilogos",
     "icon" : "favicon-64x64.png",
     "homepage": "https://uilogos.co",
     "description" : "Insert professionally designed dummy logos of companies",
