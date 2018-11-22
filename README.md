@@ -48,3 +48,9 @@ Author [vijay verma @realvjy ](https://twitter.com/realvjy)
 
 ## Feature requests & feedback
 Ping me on [twitter](http://twitter.com/realvjy) or follow for updates.
+
+## If you find this plugin helpful, consider shouting me coffee ☕️ via [PayPal](https://www.paypal.me/realvjy/5)
+
+<a href="https://www.paypal.me/realvjy/5">
+  <img width="160" height="41" src="images/paypal-badge.png" >
+</a>
