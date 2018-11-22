@@ -1,51 +1,52 @@
 {
-    "name" : "uiLogos",
-    "version" : "0.1.0",
-    "identifier" : "com.graficspark.sketch.uilogos",
-    "icon" : "favicon-64x64.png",
-    "homepage": "https://uilogos.co",
-    "description" : "Insert professionally designed dummy logos of companies",
-    "appcast": "https://raw.githubusercontent.com/realvjy/uiLogos-sketch-plugin/master/appcast.xml",
-    "authorEmail" : "hello@vijayverma.co",
-    "author" : "vijay verma",
-    "commands" : [
-      {
-        "script" : "Logos/Black Logo.js",
-        "handler" : "onRun",
-        "shortcut" : "shift alt d",
-        "name" : "Black Logotype",
-        "identifier" : "black-logo"
-      },
-      {
-        "script" : "Logos/Color Logo.js",
-        "handler" : "onRun",
-        "shortcut" : "shift alt r",
-        "name" : "Color Logotype",
-        "identifier" : "color-logo"
-      },
-      {
-        "script" : "Logos/Black Mark.js",
-        "handler" : "onRun",
-        "shortcut" : "shift alt k",
-        "name" : "Black Logomark",
-        "identifier" : "black-mark"
-      },
-      {
-        "script" : "Logos/Color Mark.js",
-        "handler" : "onRun",
-        "shortcut" : "shift alt m",
-        "name" : "Color Logomark",
-        "identifier" : "color-mark"
-      }
-  ],
-  "menu" : {
-        "title": "uiLogos",
-        "isRoot": false,
-        "items": [
-          "color-logo",
-          "black-logo",
-          "color-mark",
-          "black-mark",
-        ]
+  "compatibleVersion": 3,
+  "bundleVersion": 7,
+  "icon": "icon.png",
+  "commands": [
+    {
+      "script" : "Logos/Black Logo.js",
+      "handler" : "onRun",
+      "shortcut" : "shift alt d",
+      "name" : "Black Logotype",
+      "identifier" : "black-logo"
+    },
+    {
+      "script" : "Logos/Color Logo.js",
+      "handler" : "onRun",
+      "shortcut" : "shift alt r",
+      "name" : "Color Logotype",
+      "identifier" : "color-logo"
+    },
+    {
+      "script" : "Logos/Black Mark.js",
+      "handler" : "onRun",
+      "shortcut" : "shift alt k",
+      "name" : "Black Logomark",
+      "identifier" : "black-mark"
+    },
+    {
+      "script" : "Logos/Color Mark.js",
+      "handler" : "onRun",
+      "shortcut" : "shift alt m",
+      "name" : "Color Logomark",
+      "identifier" : "color-mark"
     }
+  ],
+  "menu": {
+    "title": "uiLogos",
+    "items": [
+      "color-logo",
+      "black-logo",
+      "color-mark",
+      "black-mark"
+    ]
+  },
+  "version": "0.2.0",
+  "description": "Insert professionally designed dummy logo of companies",
+  "homepage": "https://github.com/realvjy/uiLogos-sketch-plugin#readme",
+  "name": "uiLogos",
+  "identifier" : "com.graficspark.sketch.uilogos",
+  "appcast": "https://raw.githubusercontent.com/realvjy/uiLogos-sketch-plugin/master/appcast.xml",
+  "author": "vijay verma",
+  "authorEmail": "realvjy@gmail.com"
 }
