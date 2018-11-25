@@ -18,7 +18,7 @@
 4. Place the extracted folder directly to the Plugins folder.
 
 ## Install with Sketch Runner
-With Sketch Runner, just go to the 'install' command and search for 'uilogos'. Runner allows you to manage plugins and do much more to speed up your workflow in Sketch. [Download Runner here](http://www.sketchrunner.com).
+With Sketch Runner, just go to the `install` command and search for `uilogos`. Runner allows you to manage plugins and do much more to speed up your workflow in Sketch. [Download Runner here](http://www.sketchrunner.com).
 
 ![Sketch Runner screenshot](http://...?raw=true)
 
