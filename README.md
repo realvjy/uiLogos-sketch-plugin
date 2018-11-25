@@ -17,12 +17,11 @@
 3. In the Preferences window, click on the cog-wheel icon, and select `Show Plugins Folder` from the dropdown.
 4. Place the extracted folder directly to the Plugins folder.
 
-### Install with Sketch Runner
-With Sketch Runner, just go to the 'install' command and search for `uiLogos`. Runner allows you to manage plugins and do much more to speed up your workflow in Sketch. [Download Runner here](http://www.sketchrunner.com).
+## Install with Sketch Runner
+With Sketch Runner, just go to the 'install' command and search for 'uilogos'. Runner allows you to manage plugins and do much more to speed up your workflow in Sketch. [Download Runner here](http://www.sketchrunner.com).
 
-<a href="http://bit.ly/SketchRunnerWebsite">
-      <img src="http://bit.ly/RunnerBadgeBlue">
-    </a>
+![Sketch Runner screenshot](http://...?raw=true)
+
 
 
 ### [![Install uiLogos with Sketchpacks](http://sketchpacks-com.s3.amazonaws.com/assets/badges/sketchpacks-badge-install.png "Install uiLogos with Sketchpacks")](https://sketchpacks.com/realvjy/uiLogos/install)

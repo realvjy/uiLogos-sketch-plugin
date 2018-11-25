@@ -7,28 +7,32 @@
       "handler" : "onRun",
       "shortcut" : "shift alt d",
       "name" : "Black Logotype",
-      "identifier" : "black-logo"
+      "identifier" : "black-logo",
+      "description" : "Insert Black & white logo with typography."
     },
     {
       "script" : "Logos/Color Logo.js",
       "handler" : "onRun",
       "shortcut" : "shift alt r",
       "name" : "Color Logotype",
-      "identifier" : "color-logo"
+      "identifier" : "color-logo",
+      "description" : "Insert Color logo with typography."
     },
     {
       "script" : "Logos/Black Mark.js",
       "handler" : "onRun",
       "shortcut" : "shift alt k",
       "name" : "Black Logomark",
-      "identifier" : "black-mark"
+      "identifier" : "black-mark",
+      "description" : "Insert Black & white logo mark."
     },
     {
       "script" : "Logos/Color Mark.js",
       "handler" : "onRun",
       "shortcut" : "shift alt m",
       "name" : "Color Logomark",
-      "identifier" : "color-mark"
+      "identifier" : "color-mark",
+      "description" : "Insert Color logo mark."
     }
   ],
   "menu": {
