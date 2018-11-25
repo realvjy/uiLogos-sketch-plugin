@@ -20,7 +20,7 @@
 ## Install with Sketch Runner
 With Sketch Runner, just go to the `install` command and search for `uilogos`. Runner allows you to manage plugins and do much more to speed up your workflow in Sketch. [Download Runner here](http://www.sketchrunner.com).
 
-![Sketch Runner screenshot](http://...?raw=true)
+![Sketch Runner screenshot](/demo/sketch-runner?raw=true)
 
 
 
@@ -48,4 +48,4 @@ Author [vijay verma @realvjy ](https://twitter.com/realvjy)
 ## Feature requests & feedback
 Ping me on [twitter](http://twitter.com/realvjy) or follow for updates.
 
-## If you find this plugin helpful, consider shouting me coffee ☕️ via [PayPal](https://www.paypal.me/realvjy/5)
+## If you find this plugin helpful, consider shouting me coffee ☕️  via [PayPal](https://www.paypal.me/realvjy/5)
