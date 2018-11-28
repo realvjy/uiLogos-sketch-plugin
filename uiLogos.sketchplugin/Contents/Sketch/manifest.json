@@ -44,11 +44,10 @@
       "black-mark"
     ]
   },
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Insert professionally designed dummy logo of companies",
   "homepage": "https://github.com/realvjy/uiLogos-sketch-plugin#readme",
   "name": "uiLogos",
-  "disableCocoaScriptPreprocessor": true,
   "identifier" : "com.graficspark.sketch.uilogos",
   "appcast": "https://raw.githubusercontent.com/realvjy/uiLogos-sketch-plugin/master/appcast.xml",
   "author": "vijay verma",

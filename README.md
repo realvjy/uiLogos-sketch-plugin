@@ -12,7 +12,7 @@
 
 ## Installation
 ### Manual
-1. [Download Zip](https://github.com/realvjy/uiLogos-sketch-plugin/releases/download/0.2.0/uiLogos.sketchplugin.zip) and Extract it to a folder
+1. [Download Zip](https://github.com/realvjy/uiLogos-sketch-plugin/releases/download/0.3.0/uiLogos.sketchplugin.zip) and Extract it to a folder
 2. In Sketch app 'Plugins > Manage Plugins...'
 3. In the Preferences window, click on the cog-wheel icon, and select `Show Plugins Folder` from the dropdown.
 4. Place the extracted folder directly to the Plugins folder.

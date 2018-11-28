@@ -1,4 +1,5 @@
 @import 'common.js'
+// Get Logos function
 var getLogos = function(context, dataPath) {
   	var doc = context.document;
     var selection = context.selection;
