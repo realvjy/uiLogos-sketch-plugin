@@ -4,10 +4,10 @@
 ## Demo
 
 ### Logomark
-![Generating thumbnails](/demo/uiLogos-demo-1.gif?raw=true)
+![Generating thumbnails](https://raw.githubusercontent.com/realvjy/uiLogos-sketch-plugin/master/demo/uiLogos-demo-1.gif)
 
 ### Logotype
-![Generating thumbnails](/demo/uiLogos-demo-2.gif?raw=true)
+![Generating thumbnails](https://raw.githubusercontent.com/realvjy/uiLogos-sketch-plugin/master/demo/uiLogos-demo-2.gif)
 
 
 ## Installation
@@ -20,7 +20,7 @@
 ### Install with Sketch Runner
 With Sketch Runner, just go to the `install` command and search for `uilogos`. Runner allows you to manage plugins and do much more to speed up your workflow in Sketch. [Download Runner here](http://www.sketchrunner.com).
 
-![Sketch Runner screenshot](/demo/sketch-runner.png?raw=true)
+![Sketch Runner screenshot](https://raw.githubusercontent.com/realvjy/uiLogos-sketch-plugin/master/demo/sketch-runner.png)
 
 
 ### Install with Sketchpacks
