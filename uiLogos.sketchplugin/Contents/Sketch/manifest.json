@@ -33,6 +33,14 @@
       "name" : "Color Logomark",
       "identifier" : "color-mark",
       "description" : "Insert Color logo mark."
+    },
+    {
+      "script" : "Logos/Country Flag.js",
+      "handler" : "onRun",
+      "shortcut" : "shift alt f",
+      "name" : "Country Flag",
+      "identifier" : "country-flag",
+      "description" : "Insert Country Flag."
     }
   ],
   "menu": {
@@ -41,11 +49,12 @@
       "color-logo",
       "black-logo",
       "color-mark",
-      "black-mark"
+      "black-mark",
+      "country-flag"
     ]
   },
-  "version": "0.3.0",
-  "description": "Insert professionally designed dummy logo of companies",
+  "version": "0.4.0",
+  "description": "uiLogos Allow you to insert professionally designed dummy logos of companies and 190+ Country flag.  ",
   "homepage": "https://github.com/realvjy/uiLogos-sketch-plugin#readme",
   "name": "uiLogos",
   "identifier" : "com.graficspark.sketch.uilogos",

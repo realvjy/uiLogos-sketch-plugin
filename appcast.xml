@@ -3,8 +3,12 @@
   <channel>
     <title>uiLogos Sketch Plugin</title>
     <link>https://raw.githubusercontent.com/realvjy/uiLogos-sketch-plugin/master/appcast.xml</link>
-    <description>Sketch app plugin insert professionally designed dummy logos directly into sketchapp</description>
+    <description>Allows you to insert professionally designed dummy logos and 190+ country flags into sketch</description>
     <language>en</language>
+    <item>
+      <title>0.4.0</title>
+      <enclosure url="https://github.com/realvjy/uiLogos-sketch-plugin/releases/download/0.4.0/uiLogos.sketchplugin.zip" sparkle:version="0.4.0" />
+    </item>
     <item>
       <title>0.3.0</title>
       <enclosure url="https://github.com/realvjy/uiLogos-sketch-plugin/releases/download/0.3.0/uiLogos.sketchplugin.zip" sparkle:version="0.3.0" />

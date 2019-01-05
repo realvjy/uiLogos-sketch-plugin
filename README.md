@@ -1,5 +1,5 @@
 # uiLogos for sketch
-
+Now you can insert 25+ professionally designed logos and 190+ country flags directly into sketch app.
 
 ## Demo
 
@@ -9,10 +9,12 @@
 ### Logotype
 ![Generating thumbnails](https://raw.githubusercontent.com/realvjy/uiLogos-sketch-plugin/master/demo/uiLogos-demo-2.gif)
 
+### Country Flag
+![Generating thumbnails](https://raw.githubusercontent.com/realvjy/uiLogos-sketch-plugin/master/demo/uiLogos-demo-3.gif)
 
 ## Installation
 ### Manual
-1. [Download Zip](https://github.com/realvjy/uiLogos-sketch-plugin/releases/download/0.3.0/uiLogos.sketchplugin.zip) and Extract it to a folder
+1. [Download Zip](https://github.com/realvjy/uiLogos-sketch-plugin/releases/download/0.4.0/uiLogos.sketchplugin.zip) and Extract it to a folder
 2. In Sketch app `Plugins` > `Manage Plugins...`
 3. In the Preferences window, click on the cog-wheel icon, and select `Show Plugins Folder` from the dropdown.
 4. Place the extracted folder directly to the Plugins folder.
@@ -33,10 +35,16 @@ Installation via [Sketch Plugin Manager](https://mludowise.github.io/Sketch-Plug
 In the `Catalog` tab of the Sketch Plugin Manager window search for `uilogos`
 
 
+### Get Adobe XD plugin
+* [uiLogos for Adobe XD ](https://github.com/realvjy/uilogos-XD)
 
-## Comming Soon
-* Adobe XD Plugin
+
+### Version 0.4.0
+You can insert country flag now
+
+## Coming soon
 * More Logos
+* Search Logos
 * API
 
 ## Recommended plugins
