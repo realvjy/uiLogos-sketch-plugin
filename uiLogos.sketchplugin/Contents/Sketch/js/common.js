@@ -1,3 +1,5 @@
+var document = require('sketch').getSelectedDocument();
+
 //Show Alert message
 function alert(msg, title) {
   title = title || "Whoops";
@@ -48,9 +50,14 @@ function replaceWithImages(images, context) {
   var page = doc.currentPage()
   var artboard = page.currentArtboard()
 
-	for(var i = 0; i < [selection count]; i++) {
+  var jSelectedLayers = document.selectedLayers;
+
+  for(var i = 0; i < jSelectedLayers.layers.length; i++) {
 		var newImage = [[NSImage alloc] initByReferencingFile:images[i]];
     var selectedLayer = selection[i];
+
+    var jlayer = jSelectedLayers.layers[i];
+
     // Save original Image Size
     var originalSize = newImage.size();
 
@@ -66,9 +73,16 @@ function replaceWithImages(images, context) {
       // var rect = CGRectMake(0, 0, 100, 100); //default dimension
       var bitmapLayer = MSBitmapLayer.alloc().initWithFrame_image(frame, imageData);
       bitmapLayer.name = getLayerName(images[i]); //change layer name
-      if (artboard) {
-        artboard.addLayers([bitmapLayer]); //Create new bitmap layer
-        artboard.removeLayer(selectedLayer);// remove sected layer
+   if (artboard) {
+        if (jlayer) {
+           var layer = document.getLayerWithID(jlayer.id)
+            if (layer) {
+               console.log("layer", layer);
+
+              layer.parent.sketchObject.addLayer(bitmapLayer)
+            }
+          jlayer.remove()
+        }
       } else {
         doc.showMessage('Shapes must inside artboard!')
       }
